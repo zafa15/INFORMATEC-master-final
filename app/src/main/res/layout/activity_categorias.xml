@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+<GridLayout
+    android:columnCount="2"
+    android:rowCount="3"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="12dp"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/cinco"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btn_camaras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CAMARAS WEB VIGILANCIA"></Button>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_case"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CASES ACCESORIOS"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_celulares"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CELULARES / TABLET ACCESORIOS"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_Conectividad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CONECTIVIDAD / REDES"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_dd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="DISCOS DUROS  ACCESORIOS"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_Fuente"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="FUENTES DE PODER"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_Impresoras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="LAPTOP  ACCESORIOS"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_Lectores"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="LECTORES  DISPOSITIVOS"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_Licencias"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="LICENCIAS  SOFTWARE"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_Memorias"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MEMORIAS / RAM / USB / SD"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_placas_madre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="PLACA MADRE ( MOTHERBOARD )"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/cinco"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_Procesadores"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="PROCESADORES COMPLEMENTOS"></Button>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</GridLayout>
+
+</ScrollView>
